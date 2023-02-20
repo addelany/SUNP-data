@@ -6,8 +6,7 @@ library(EDIutils)
 library(xml2)
 library(lubridate)
 
-#home_directory <- here::here()
-home_directory <- getwd()
+home_directory <- here::here()
 setwd(home_directory)
 
 ### pull in QAQC function directly from EDI -- keep for now, but will need to update the function
